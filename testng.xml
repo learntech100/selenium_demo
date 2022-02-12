@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+ 
+<suite name="Suite1" verbose="1" >
+
+<!--
+  <test name="Regression1"   >
+    <packages>
+      <package name="tests" />
+   </packages>
+ </test>
+ -->
+  <test name="Set1">
+    <classes>
+      <class name="tests.LoginTests"/>
+      <class name="tests.RegressionTests"/>
+    </classes>
+  </test>
+
+</suite>
