@@ -32,7 +32,7 @@ public class BaseClass {
 		ChromeOptions options = new ChromeOptions();
 		driver = new ChromeDriver(options);
 
-		// Navigate to our app
+		// Navigate to our app1
 		driver.get("https://www.saucedemo.com/");
 		driver.manage().window().maximize();
 		
