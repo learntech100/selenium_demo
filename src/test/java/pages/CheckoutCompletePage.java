@@ -15,7 +15,7 @@ public class CheckoutCompletePage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	// this is a method-444
+	// this is a method-555
 	public String getOrderSuccessMessage() {
 		return orderSuccessMessage.getText();
 	}
